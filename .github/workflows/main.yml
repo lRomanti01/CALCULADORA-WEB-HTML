@@ -19,4 +19,4 @@ jobs:
 
     - name: Deploy on surge
       run: |
-        surge --project ./ --domain {{ env.SURGE_SUBDOMAIN }} -- ${{ secrets.SURGE_API_KEY }}
+        surge --project ./ --domain calculadoraweb.surge.sh -- ${{ secrets.SURGE_API_KEY }}
